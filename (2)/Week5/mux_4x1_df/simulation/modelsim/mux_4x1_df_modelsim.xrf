@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/USER/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v
+source_file = 1, C:/Users/USER/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/db/mux_4x1_df.cbx.xml
+design_name = mux_4x1_df
+instance = comp, m_out_aoutput, m_out~output, mux_4x1_df, 1
+instance = comp, in_3_ainput, in_3~input, mux_4x1_df, 1
+instance = comp, in_2_ainput, in_2~input, mux_4x1_df, 1
+instance = comp, select_a1_a_ainput, select[1]~input, mux_4x1_df, 1
+instance = comp, in_0_ainput, in_0~input, mux_4x1_df, 1
+instance = comp, select_a0_a_ainput, select[0]~input, mux_4x1_df, 1
+instance = comp, in_1_ainput, in_1~input, mux_4x1_df, 1
+instance = comp, Mux0_a0, Mux0~0, mux_4x1_df, 1
+instance = comp, Mux0_a1, Mux0~1, mux_4x1_df, 1

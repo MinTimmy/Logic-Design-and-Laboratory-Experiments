@@ -1,0 +1,8 @@
+|Demo4
+F1 <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+F2 <= <GND>
+D[0] => Add0.IN2
+D[1] => Add0.IN1
+D[2] => Add1.IN2
+
+

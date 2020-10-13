@@ -1,0 +1,38 @@
+module test_Demo4
+	reg [2:0] D;
+	wire F1, F2;
+	
+	Demo4 D(F1, F2, D)
+	
+	initial
+		begin
+			D = 3'b000;
+			repeat(7)#10 D = D +1'b1;
+		end
+		
+	initial
+		$monitor = ("ABC = %b F1 = %b F2 = %b", D, F1, F2);
+
+endmodule
+
+
+module Demo4
+(
+	output F1, F2,
+	input D
+);
+	always @(D, F1, F2)
+	case(D)
+		3'b000: F1 = 0, F2 = 0;
+		3'b001: F1 = 1, F2 = 0;
+		3'b010: F1 = 1, F2 = 0;
+		3'b011: F1 = 0, F2 = 1;
+		3'b100: F1 = 1, F2 = 0;
+		3'b101: F1 = 0, F2 = 1;
+		3'b110: F1 = 0, F2 = 1;
+		3'b111: F1 = 1, F2 = 1;
+	endcase
+	
+	
+
+endmodule

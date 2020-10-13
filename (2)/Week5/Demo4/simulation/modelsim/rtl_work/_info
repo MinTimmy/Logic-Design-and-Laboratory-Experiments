@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Logic-Design-and-Laboratory-Experiments-master\(2)\Week5\Demo4\simulation\modelsim
+vDemo4
+!i10b 1
+!s100 3PcWUe`ccVmJOoZT@62k@3
+Io_nz=3SN`_VH:i[1A2Lh51
+VXD[P:fTB6JYLY^AI:2`e60
+Z1 dD:\Logic-Design-and-Laboratory-Experiments-master\(2)\Week5\Demo4\simulation\modelsim
+Z2 w1602579230
+Z3 8D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v
+Z4 FD:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v
+L0 19
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1602579256.030000
+Z7 !s107 D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4|D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4 -O0
+n@demo4
+vtest_Demo4
+!i10b 1
+!s100 ^DYjcWWQ1a8>Z[U;j]m0N1
+IFa8Io]lgTYLWV^]ek`C0n0
+V_B1WdHX<M1F<98:nb?6fH1
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+ntest_@demo4

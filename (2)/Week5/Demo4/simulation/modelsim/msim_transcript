@@ -1,0 +1,43 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Demo4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4 {D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test_Demo4
+# ** Warning: D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v(5): (vlog-2576) [BSOB] - Bit-select into 'tD' is out of bounds.
+# 
+# -- Compiling module Demo4
+# 
+# Top level modules:
+# 	test_Demo4
+# 
+# vlog -vlog01compat -work work +incdir+D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4 {D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test_Demo4
+# ** Warning: D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v(5): (vlog-2576) [BSOB] - Bit-select into 'tD' is out of bounds.
+# 
+# -- Compiling module Demo4
+# 
+# Top level modules:
+# 	test_Demo4
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  test_Demo4
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps test_Demo4 
+# Loading work.test_Demo4
+# Loading work.Demo4
+# ** Fatal: (vsim-3365) D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v(5): Too many port connections. Expected 3, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /test_Demo4/DD File: D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./Demo4_run_msim_rtl_verilog.do PAUSED at line 12

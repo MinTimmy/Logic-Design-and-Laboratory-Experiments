@@ -1,0 +1,26 @@
+# do Demo1.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Demo1
+# 
+# Top level modules:
+# 	Demo1
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Demo1_vlg_sample_tst
+# -- Compiling module Demo1_vlg_check_tst
+# -- Compiling module Demo1_vlg_vec_tst
+# 
+# Top level modules:
+# 	Demo1_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.Demo1_vlg_vec_tst 
+# Loading work.Demo1_vlg_vec_tst
+# Loading work.Demo1
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.Demo1_vlg_sample_tst
+# Loading work.Demo1_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(152)
+#    Time: 1 us  Iteration: 0  Instance: /Demo1_vlg_vec_tst/tb_out

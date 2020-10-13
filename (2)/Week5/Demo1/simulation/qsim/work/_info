@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Logic-Design-and-Laboratory-Experiments-master\(2)\Week5\Class\Demo1\simulation\qsim
+vDemo1
+Z1 IW83c7m[8<`=9oO9D8ZBkg1
+Z2 VX8mJGAZPD@^TERO[8NgEX3
+Z3 dD:\Logic-Design-and-Laboratory-Experiments-master\(2)\Week5\Class\Demo1\simulation\qsim
+Z4 w1602572966
+Z5 8Demo1.vo
+Z6 FDemo1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Demo1.vo|
+Z9 o-work work -O0
+Z10 n@demo1
+!i10b 1
+Z11 !s100 NF0`P7oI_1U>V`SonmdCR0
+!s85 0
+Z12 !s108 1602572969.711000
+Z13 !s107 Demo1.vo|
+!s101 -O0
+vDemo1_vlg_check_tst
+!i10b 1
+Z14 !s100 0eFTj`7RLn@j4Fz`2>IZg3
+Z15 IYYRRY?`iHo[6[oYeJHKbj3
+Z16 VmWV49XC5i6QI:]J@E[<JB2
+R3
+Z17 w1602572965
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1602572969.896000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+Z23 n@demo1_vlg_check_tst
+vDemo1_vlg_sample_tst
+!i10b 1
+Z24 !s100 H2LaJbNi7TOZcS=il3>MT3
+Z25 I@NhlJ=Rai7Oh8Mn0OS@DO1
+Z26 V<FD3I?R?[^D39l65nJlzj0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@demo1_vlg_sample_tst
+vDemo1_vlg_vec_tst
+!i10b 1
+Z28 !s100 Y0B<D2fmU[eeXmdcToT5h0
+Z29 IDeTAT<[Oe<VfDCD:77F>82
+Z30 V;PJckFD6OGLXS>3QH0lzS2
+R3
+R17
+R18
+R19
+Z31 L0 156
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@demo1_vlg_vec_tst

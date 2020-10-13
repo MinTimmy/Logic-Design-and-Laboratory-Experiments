@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/Demo4.v
+source_file = 1, D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Demo4/db/Demo4.cbx.xml
+design_name = Demo4
+instance = comp, \F1~output , F1~output, Demo4, 1
+instance = comp, \F2~output , F2~output, Demo4, 1
+instance = comp, \D[2]~input , D[2]~input, Demo4, 1
+instance = comp, \D[1]~input , D[1]~input, Demo4, 1
+instance = comp, \D[0]~input , D[0]~input, Demo4, 1
+instance = comp, \Add1~0 , Add1~0, Demo4, 1

@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Class/Demo2/Demo2.v
+source_file = 1, D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Class/Demo2/Waveform.vwf
+source_file = 1, D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/Class/Demo2/db/Demo2.cbx.xml
+design_name = Demo2
+instance = comp, \m_out~output , m_out~output, Demo2, 1
+instance = comp, \in_2~input , in_2~input, Demo2, 1
+instance = comp, \in_0~input , in_0~input, Demo2, 1
+instance = comp, \select[1]~input , select[1]~input, Demo2, 1
+instance = comp, \select[0]~input , select[0]~input, Demo2, 1
+instance = comp, \in_1~input , in_1~input, Demo2, 1
+instance = comp, \Mux0~0 , Mux0~0, Demo2, 1
+instance = comp, \in_3~input , in_3~input, Demo2, 1
+instance = comp, \Mux0~1 , Mux0~1, Demo2, 1
