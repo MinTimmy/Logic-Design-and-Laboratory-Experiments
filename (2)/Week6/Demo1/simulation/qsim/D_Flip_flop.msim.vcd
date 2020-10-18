@@ -1,0 +1,182 @@
+$comment
+	File created using the following command:
+		vcd file D_Flip_flop.msim.vcd -direction
+$end
+$date
+	Sun Oct 18 11:46:14 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module D_Flip_flop_vlg_vec_tst $end
+$var reg 1 ! Clk $end
+$var reg 1 " D $end
+$var wire 1 # Q $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + Q~output_o $end
+$var wire 1 , Clk~input_o $end
+$var wire 1 - D~input_o $end
+$var wire 1 . Q~reg0feeder_combout $end
+$var wire 1 / Q~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+0/
+$end
+#50000
+1!
+1,
+0$
+#100000
+1"
+0!
+1-
+0,
+1$
+1.
+#150000
+1!
+1,
+0$
+1/
+1+
+1#
+#200000
+0"
+0!
+0-
+0,
+1$
+0.
+#250000
+1!
+1,
+0$
+0/
+0+
+0#
+#300000
+1"
+0!
+1-
+0,
+1$
+1.
+#350000
+1!
+1,
+0$
+1/
+1+
+1#
+#400000
+0"
+0!
+0-
+0,
+1$
+0.
+#450000
+1!
+1,
+0$
+0/
+0+
+0#
+#500000
+1"
+0!
+1-
+0,
+1$
+1.
+#550000
+1!
+1,
+0$
+1/
+1+
+1#
+#600000
+0"
+0!
+0-
+0,
+1$
+0.
+#650000
+1!
+1,
+0$
+0/
+0+
+0#
+#700000
+1"
+0!
+1-
+0,
+1$
+1.
+#750000
+1!
+1,
+0$
+1/
+1+
+1#
+#800000
+0"
+0!
+0-
+0,
+1$
+0.
+#850000
+1!
+1,
+0$
+0/
+0+
+0#
+#900000
+1"
+0!
+1-
+0,
+1$
+1.
+#950000
+1!
+1,
+0$
+1/
+1+
+1#
+#1000000

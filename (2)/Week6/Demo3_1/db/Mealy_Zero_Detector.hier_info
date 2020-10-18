@@ -1,0 +1,11 @@
+|Mealy_Zero_Detector
+y_out <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
+x_in => next_state.S1.DATAB
+x_in => next_state.S3.DATAB
+x_in => Selector0.IN1
+x_in => Selector1.IN2
+x_in => state.S0.DATAIN
+clock => state~1.DATAIN
+reset => state~3.DATAIN
+
+

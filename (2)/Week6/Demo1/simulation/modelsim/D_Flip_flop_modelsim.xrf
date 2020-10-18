@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo1/D_Flip_flop.v
+source_file = 1, D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo1/db/D_Flip_flop.cbx.xml
+design_name = D_Flip_flop
+instance = comp, \Q~output , Q~output, D_Flip_flop, 1
+instance = comp, \Clk~input , Clk~input, D_Flip_flop, 1
+instance = comp, \D~input , D~input, D_Flip_flop, 1
+instance = comp, \Q~reg0feeder , Q~reg0feeder, D_Flip_flop, 1
+instance = comp, \Q~reg0 , Q~reg0, D_Flip_flop, 1

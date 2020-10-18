@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo3_2\simulation\qsim
+vMealy_Zero_Detector
+Z1 !s100 fmig:b>cMZ6P3f>TYeKfc0
+Z2 I`]QBM_>kf5o4=e<:edZ:<3
+Z3 V9RlPL@=Ecl?YOB_zV2=6g2
+Z4 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo3_2\simulation\qsim
+Z5 w1602995462
+Z6 8Mealy_Zero_Detector.vo
+Z7 FMealy_Zero_Detector.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Mealy_Zero_Detector.vo|
+Z10 o-work work -O0
+Z11 n@mealy_@zero_@detector
+!i10b 1
+!s85 0
+Z12 !s108 1602995463.288000
+Z13 !s107 Mealy_Zero_Detector.vo|
+!s101 -O0
+vMealy_Zero_Detector_vlg_check_tst
+!i10b 1
+!s100 6aMZghSinG<J`A8^JjO]?3
+In`zeT517aeA:HT0b[D_]93
+Z14 Vf5ZeCIZl^;KfS3UPB<>bV1
+R4
+Z15 w1602995460
+Z16 8Waveform1.vwf.vt
+Z17 FWaveform1.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1602995463.357000
+Z19 !s107 Waveform1.vwf.vt|
+Z20 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R10
+Z21 n@mealy_@zero_@detector_vlg_check_tst
+vMealy_Zero_Detector_vlg_sample_tst
+!i10b 1
+!s100 kHALA_JZgn[ZRj`K5kHRo2
+IR5eNM7Nj;9ZTa3f<72H[c3
+Z22 VbSG2QZ7ojmz1_kgAjBIAa3
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z23 n@mealy_@zero_@detector_vlg_sample_tst
+vMealy_Zero_Detector_vlg_vec_tst
+!i10b 1
+!s100 nQ:XbF@eld:^K`Ed:2khh0
+IeLR3EDKmVlV3?@6nl5W282
+Z24 V3lkPz^coMk4[CnLNkGBBM0
+R4
+R15
+R16
+R17
+Z25 L0 210
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z26 n@mealy_@zero_@detector_vlg_vec_tst

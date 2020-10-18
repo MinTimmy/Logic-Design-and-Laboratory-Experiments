@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at Moore_Model.v(3): object "s0" differs only in case from object "S0" in the same scope
+Info (10281): Verilog HDL Declaration information at Moore_Model.v(3): object "s1" differs only in case from object "S1" in the same scope
