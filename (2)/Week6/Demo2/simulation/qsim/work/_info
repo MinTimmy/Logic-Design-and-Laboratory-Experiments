@@ -4,82 +4,82 @@ K3
 cModel Technology
 Z0 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo2\simulation\qsim
 vJK_Flip_flop
-Z1 I8gCLCm<00R`^lldMD?`<B1
-Z2 VNPG[o=P2J70`fShLeL5Qf0
-Z3 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo2\simulation\qsim
-Z4 w1602993130
-Z5 8JK_Flip_flop.vo
-Z6 FJK_Flip_flop.vo
+Z1 !s100 8k5<j@_VYQV0a[I=WBC9G2
+Z2 I8gCLCm<00R`^lldMD?`<B1
+Z3 VNPG[o=P2J70`fShLeL5Qf0
+Z4 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo2\simulation\qsim
+Z5 w1603177344
+Z6 8JK_Flip_flop.vo
+Z7 FJK_Flip_flop.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
-Z9 n@j@k_@flip_flop
+Z9 !s90 -work|work|JK_Flip_flop.vo|
+Z10 o-work work -O0
+Z11 n@j@k_@flip_flop
 !i10b 1
-Z10 !s100 8k5<j@_VYQV0a[I=WBC9G2
 !s85 0
-Z11 !s108 1602993130.971000
-Z12 !s107 JK_Flip_flop.vo|
-Z13 !s90 -work|work|JK_Flip_flop.vo|
+Z12 !s108 1603177345.812000
+Z13 !s107 JK_Flip_flop.vo|
 !s101 -O0
 vJK_Flip_flop_vlg_check_tst
 !i10b 1
-!s100 <U`Kn=?S7jLojmIWZo41z3
-IRijZIJTlT@Jcm8gkfV6=a3
-VNOAzM_96F8g_I1dW;PNk70
-R3
-Z14 w1602993128
-Z15 8Waveform.vwf.vt
-Z16 FWaveform.vwf.vt
+Z14 !s100 <U`Kn=?S7jLojmIWZo41z3
+Z15 IRijZIJTlT@Jcm8gkfV6=a3
+Z16 VNOAzM_96F8g_I1dW;PNk70
+R4
+Z17 w1603177343
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
 L0 61
-R7
+R8
 r1
 !s85 0
 31
-Z17 !s108 1602993131.072000
-Z18 !s107 Waveform.vwf.vt|
-Z19 !s90 -work|work|Waveform.vwf.vt|
+Z20 !s108 1603177346.190000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0
-R8
-n@j@k_@flip_flop_vlg_check_tst
+R10
+Z23 n@j@k_@flip_flop_vlg_check_tst
 vJK_Flip_flop_vlg_sample_tst
 !i10b 1
-!s100 z2VHQCkFZcDRT[kPjnFbk0
-IibD@Nn_PXjA9]9gQKU:2W1
-VB]D?V:CZ4eLk1lK8bQI`11
-R3
-R14
-R15
-R16
-L0 29
-R7
-r1
-!s85 0
-31
+Z24 !s100 z2VHQCkFZcDRT[kPjnFbk0
+Z25 IibD@Nn_PXjA9]9gQKU:2W1
+Z26 VB]D?V:CZ4eLk1lK8bQI`11
+R4
 R17
 R18
 R19
-!s101 -O0
+L0 29
 R8
-n@j@k_@flip_flop_vlg_sample_tst
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@j@k_@flip_flop_vlg_sample_tst
 vJK_Flip_flop_vlg_vec_tst
 !i10b 1
-!s100 UlDH65MT6`QjnXVKYLVgL2
-I1<CLc:beW82oTXD3G96`>0
-V>gZFcAP:DB7dzN1c^T_9V2
-R3
-R14
-R15
-R16
-L0 183
-R7
-r1
-!s85 0
-31
+Z28 !s100 UlDH65MT6`QjnXVKYLVgL2
+Z29 I1<CLc:beW82oTXD3G96`>0
+Z30 V>gZFcAP:DB7dzN1c^T_9V2
+R4
 R17
 R18
 R19
-!s101 -O0
+Z31 L0 183
 R8
-n@j@k_@flip_flop_vlg_vec_tst
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@j@k_@flip_flop_vlg_vec_tst

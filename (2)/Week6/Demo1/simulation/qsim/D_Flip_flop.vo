@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
-// DATE "10/18/2020 11:46:13"
+// DATE "10/20/2020 14:53:12"
 
 // 
 // Device: Altera EP3C10E144C8 Package TQFP144
@@ -37,9 +37,9 @@ input 	D;
 input 	Clk;
 
 // Design Ports Information
-// Q	=>  Location: PIN_34,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// D	=>  Location: PIN_24,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// Clk	=>  Location: PIN_25,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Q	=>  Location: PIN_66,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// D	=>  Location: PIN_65,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Clk	=>  Location: PIN_68,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 wire gnd;
@@ -56,11 +56,10 @@ tri1 devoe;
 wire \Q~output_o ;
 wire \Clk~input_o ;
 wire \D~input_o ;
-wire \Q~reg0feeder_combout ;
 wire \Q~reg0_q ;
 
 
-// Location: IOOBUF_X0_Y5_N16
+// Location: IOOBUF_X28_Y0_N2
 cycloneiii_io_obuf \Q~output (
 	.i(\Q~reg0_q ),
 	.oe(vcc),
@@ -73,7 +72,7 @@ defparam \Q~output .bus_hold = "false";
 defparam \Q~output .open_drain_output = "false";
 // synopsys translate_on
 
-// Location: IOIBUF_X0_Y11_N22
+// Location: IOIBUF_X30_Y0_N8
 cycloneiii_io_ibuf \Clk~input (
 	.i(Clk),
 	.ibar(gnd),
@@ -83,7 +82,7 @@ defparam \Clk~input .bus_hold = "false";
 defparam \Clk~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X0_Y11_N15
+// Location: IOIBUF_X28_Y0_N22
 cycloneiii_io_ibuf \D~input (
 	.i(D),
 	.ibar(gnd),
@@ -93,32 +92,15 @@ defparam \D~input .bus_hold = "false";
 defparam \D~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: LCCOMB_X1_Y11_N16
-cycloneiii_lcell_comb \Q~reg0feeder (
-// Equation(s):
-// \Q~reg0feeder_combout  = \D~input_o 
-
-	.dataa(gnd),
-	.datab(gnd),
-	.datac(gnd),
-	.datad(\D~input_o ),
-	.cin(gnd),
-	.combout(\Q~reg0feeder_combout ),
-	.cout());
-// synopsys translate_off
-defparam \Q~reg0feeder .lut_mask = 16'hFF00;
-defparam \Q~reg0feeder .sum_lutc_input = "datac";
-// synopsys translate_on
-
-// Location: FF_X1_Y11_N17
+// Location: FF_X29_Y1_N17
 dffeas \Q~reg0 (
 	.clk(\Clk~input_o ),
-	.d(\Q~reg0feeder_combout ),
-	.asdata(vcc),
+	.d(gnd),
+	.asdata(\D~input_o ),
 	.clrn(vcc),
 	.aload(gnd),
 	.sclr(gnd),
-	.sload(gnd),
+	.sload(vcc),
 	.ena(vcc),
 	.devclrn(devclrn),
 	.devpor(devpor),

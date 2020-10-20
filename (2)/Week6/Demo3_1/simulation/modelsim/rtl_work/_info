@@ -2,38 +2,38 @@ m255
 K3
 13
 cModel Technology
-Z0 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo3\simulation\modelsim
+Z0 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo3_1\simulation\modelsim
 vMealy_Zero_Detector
 !i10b 1
-!s100 OeIGzTTWIS?0E_hDFdz4H0
-Ie2SlSl7A:dNO1aJDf8>ae1
+!s100 RVZmUCU]bh8iAcmV?S1gi3
+II0MJ^TQU65[En3lAmg:@61
 VSa6SV``mT>O5MhMA^2n5m3
-Z1 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo3\simulation\modelsim
-Z2 w1602994515
-Z3 8D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3/Mealy_Zero_Detector.v
-Z4 FD:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3/Mealy_Zero_Detector.v
+Z1 dD:\Logic-Design-and-Laboratory-Experiments\(2)\Week6\Demo3_1\simulation\modelsim
+Z2 w1603178292
+Z3 8D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3_1/Mealy_Zero_Detector.v
+Z4 FD:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3_1/Mealy_Zero_Detector.v
 L0 1
 Z5 OV;L;10.1d;51
 r1
 !s85 0
 31
-Z6 !s108 1602994546.236000
-Z7 !s107 D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3/Mealy_Zero_Detector.v|
-Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3|D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3/Mealy_Zero_Detector.v|
+Z6 !s108 1603179607.904000
+Z7 !s107 D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3_1/Mealy_Zero_Detector.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3_1|D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3_1/Mealy_Zero_Detector.v|
 !s101 -O0
 Z9 o-vlog01compat -work work -O0
-Z10 !s92 -vlog01compat -work work +incdir+D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3 -O0
+Z10 !s92 -vlog01compat -work work +incdir+D:/Logic-Design-and-Laboratory-Experiments/(2)/Week6/Demo3_1 -O0
 n@mealy_@zero_@detector
 vt_Mealy_Zero_Detector
 !i10b 1
-!s100 R2mdf]nda5g[Sn=gkjO?S3
-I]@I=5<YJzV5_i1lP[nh:G0
+!s100 Pb8Jn63Lgo:CXTm?HNeKZ2
+IeH_;AzPiS;W:o2TM:RSQi2
 Vi;Nc;Fk;:78[hC`zY`=Dz0
 R1
 R2
 R3
 R4
-L0 24
+L0 30
 R5
 r1
 !s85 0

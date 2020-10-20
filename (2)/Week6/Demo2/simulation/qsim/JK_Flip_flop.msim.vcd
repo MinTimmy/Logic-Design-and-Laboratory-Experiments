@@ -3,7 +3,7 @@ $comment
 		vcd file JK_Flip_flop.msim.vcd -direction
 $end
 $date
-	Sun Oct 18 11:52:11 2020
+	Tue Oct 20 15:02:27 2020
 $end
 $version
 	ModelSim Version 10.1d

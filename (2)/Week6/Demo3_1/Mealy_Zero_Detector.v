@@ -39,7 +39,7 @@ module t_Mealy_Zero_Detector;
 	end
 	initial fork
 		t_reset = 0;
-		t_x_in = 0;
+		//t_x_in = 0;
 		#2 t_reset = 1;
 		#87 t_reset = 0;
 		#89 t_reset = 1;

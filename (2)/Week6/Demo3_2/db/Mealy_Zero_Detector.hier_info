@@ -1,18 +1,22 @@
 |Mealy_Zero_Detector
-y_out <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
-s1 <= state[1].DB_MAX_OUTPUT_PORT_TYPE
-s0 <= state[0].DB_MAX_OUTPUT_PORT_TYPE
-x_in => Mux1.IN2
-x_in => Mux0.IN1
-x_in => Mux1.IN3
-x_in => Mux0.IN2
+y_out <= y_out$latch.DB_MAX_OUTPUT_PORT_TYPE
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+next_state[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+next_state[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+x_in => Mux1.IN4
 x_in => Mux0.IN3
+x_in => Mux1.IN5
+x_in => Mux0.IN4
+x_in => Mux0.IN5
 x_in => Mux2.IN1
 x_in => Mux2.IN2
+x_in => Mux3.IN2
+x_in => Mux3.IN3
 x_in => Mux2.IN3
-clock => state[0].CLK
-clock => state[1].CLK
-reset => state[0].ACLR
-reset => state[1].ACLR
+clock => state[0]~reg0.CLK
+clock => state[1]~reg0.CLK
+reset => state[0]~reg0.ACLR
+reset => state[1]~reg0.ACLR
 
 

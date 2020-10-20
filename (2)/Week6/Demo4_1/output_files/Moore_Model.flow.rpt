@@ -1,5 +1,5 @@
 Flow report for Moore_Model
-Sun Oct 18 12:56:09 2020
+Tue Oct 20 16:28:27 2020
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Sun Oct 18 12:56:09 2020      ;
+; Flow Status                        ; Successful - Tue Oct 20 16:28:27 2020      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; Moore_Model                                ;
 ; Top-level Entity Name              ; Moore_Model                                ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/18/2020 12:55:53 ;
+; Start date & time ; 10/20/2020 16:28:09 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Moore_Model         ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 246744086881769.160299695301444 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 264390070262572.160318248912076 ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; M0                              ; --            ; --          ; t_Moore_Model  ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; On                              ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; t_Moore_Model                   ; --            ; --          ; eda_simulation ;
@@ -102,11 +102,11 @@ applicable agreement for further details.
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4646 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:05     ; 1.8                     ; 5329 MB             ; 00:00:06                           ;
+; Fitter                    ; 00:00:05     ; 1.8                     ; 5332 MB             ; 00:00:05                           ;
 ; Assembler                 ; 00:00:01     ; 1.0                     ; 4589 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4681 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4543 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:11     ; --                      ; --                  ; 00:00:11                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4682 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4544 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:10     ; --                      ; --                  ; 00:00:09                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,11 +115,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

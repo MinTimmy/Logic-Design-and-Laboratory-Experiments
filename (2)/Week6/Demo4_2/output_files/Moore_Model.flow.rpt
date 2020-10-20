@@ -1,5 +1,5 @@
 Flow report for Moore_Model
-Sun Oct 18 13:01:19 2020
+Tue Oct 20 17:00:40 2020
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Sun Oct 18 13:01:19 2020      ;
+; Flow Status                        ; Successful - Tue Oct 20 17:00:40 2020      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; Moore_Model                                ;
 ; Top-level Entity Name              ; Moore_Model                                ;
@@ -51,7 +51,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 6 / 10,320 ( < 1 % )                       ;
 ;     Dedicated logic registers      ; 4 / 10,320 ( < 1 % )                       ;
 ; Total registers                    ; 4                                          ;
-; Total pins                         ; 7 / 95 ( 7 % )                             ;
+; Total pins                         ; 5 / 95 ( 5 % )                             ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0 / 423,936 ( 0 % )                        ;
 ; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                             ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/18/2020 13:00:57 ;
+; Start date & time ; 10/20/2020 17:00:24 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Moore_Model         ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 246744086881769.160299725709656 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 264390070262572.160318442402704 ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
@@ -93,12 +93,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4654 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:07     ; 1.5                     ; 5331 MB             ; 00:00:06                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4593 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4554 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:14     ; --                      ; --                  ; 00:00:11                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4646 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:04     ; 1.0                     ; 5331 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4589 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4682 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4555 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:09     ; --                      ; --                  ; 00:00:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -107,11 +107,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-CJCDIBJ  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; lab305-PC        ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

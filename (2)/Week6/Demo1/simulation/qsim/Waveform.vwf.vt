@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/18/2020 11:46:11"
+// Generated on "10/20/2020 14:47:22"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    D_Flip_flop
 // 
@@ -178,11 +178,15 @@ begin
 end 
 
 // D
-always
+initial
 begin
+	repeat(5)
+	begin
+		D = 1'b0;
+		D = #97000 1'b1;
+		# 97000;
+	end
 	D = 1'b0;
-	D = #100000 1'b1;
-	#100000;
 end 
 
 D_Flip_flop_vlg_sample_tst tb_sample (
