@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week6\lab3\simulation\modelsim
+vMealy_Zero_Detector
+!i10b 1
+!s100 N`oYdk1<E?LWCffX_[=X43
+IgF]V;jlQ@2[FIR6ahQV@?1
+V@X0h[VH1YUj[hek>^SN;m0
+Z1 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week6\lab3\simulation\modelsim
+Z2 w1604840258
+Z3 8C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week6/lab3/Mealy_Zero_Detector.v
+Z4 FC:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week6/lab3/Mealy_Zero_Detector.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1604840342.308000
+Z7 !s107 C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week6/lab3/Mealy_Zero_Detector.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week6/lab3|C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week6/lab3/Mealy_Zero_Detector.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week6/lab3 -O0
+n@mealy_@zero_@detector
+vt_Mealy_Zero_Detector
+!i10b 1
+!s100 LHNVcYh2jQn[Xn<3>9TCZ0
+IDR?ZH=T17j0d?_MjTJg6N3
+Vi;Nc;Fk;:78[hC`zY`=Dz0
+R1
+R2
+R3
+R4
+L0 22
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+nt_@mealy_@zero_@detector

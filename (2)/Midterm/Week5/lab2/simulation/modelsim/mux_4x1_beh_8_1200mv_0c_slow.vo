@@ -1,0 +1,160 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
+
+// DATE "11/08/2020 11:02:09"
+
+// 
+// Device: Altera EP3C10E144C8 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module mux_4x1_beh (
+	m_out,
+	in_0,
+	in_1,
+	in_2,
+	in_3,
+	select);
+output 	m_out;
+input 	in_0;
+input 	in_1;
+input 	in_2;
+input 	in_3;
+input 	select;
+
+// Design Ports Information
+// m_out	=>  Location: PIN_46,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// in_2	=>  Location: PIN_24,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// in_3	=>  Location: PIN_25,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// in_1	=>  Location: PIN_3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// in_0	=>  Location: PIN_31,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// select	=>  Location: PIN_53,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("mux_4x1_beh_8_1200mv_0c_v_slow.sdo");
+// synopsys translate_on
+
+wire \in_2~input_o ;
+wire \in_3~input_o ;
+wire \m_out~output_o ;
+wire \in_0~input_o ;
+wire \select~input_o ;
+wire \in_1~input_o ;
+wire \m_out~0_combout ;
+
+
+// Location: IOOBUF_X7_Y0_N2
+cycloneiii_io_obuf \m_out~output (
+	.i(\m_out~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\m_out~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \m_out~output .bus_hold = "false";
+defparam \m_out~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y7_N1
+cycloneiii_io_ibuf \in_0~input (
+	.i(in_0),
+	.ibar(gnd),
+	.o(\in_0~input_o ));
+// synopsys translate_off
+defparam \in_0~input .bus_hold = "false";
+defparam \in_0~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X16_Y0_N1
+cycloneiii_io_ibuf \select~input (
+	.i(select),
+	.ibar(gnd),
+	.o(\select~input_o ));
+// synopsys translate_off
+defparam \select~input .bus_hold = "false";
+defparam \select~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y23_N15
+cycloneiii_io_ibuf \in_1~input (
+	.i(in_1),
+	.ibar(gnd),
+	.o(\in_1~input_o ));
+// synopsys translate_off
+defparam \in_1~input .bus_hold = "false";
+defparam \in_1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X5_Y8_N0
+cycloneiii_lcell_comb \m_out~0 (
+// Equation(s):
+// \m_out~0_combout  = (\select~input_o  & ((\in_1~input_o ))) # (!\select~input_o  & (\in_0~input_o ))
+
+	.dataa(\in_0~input_o ),
+	.datab(gnd),
+	.datac(\select~input_o ),
+	.datad(\in_1~input_o ),
+	.cin(gnd),
+	.combout(\m_out~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \m_out~0 .lut_mask = 16'hFA0A;
+defparam \m_out~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y11_N15
+cycloneiii_io_ibuf \in_2~input (
+	.i(in_2),
+	.ibar(gnd),
+	.o(\in_2~input_o ));
+// synopsys translate_off
+defparam \in_2~input .bus_hold = "false";
+defparam \in_2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y11_N22
+cycloneiii_io_ibuf \in_3~input (
+	.i(in_3),
+	.ibar(gnd),
+	.o(\in_3~input_o ));
+// synopsys translate_off
+defparam \in_3~input .bus_hold = "false";
+defparam \in_3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign m_out = \m_out~output_o ;
+
+endmodule

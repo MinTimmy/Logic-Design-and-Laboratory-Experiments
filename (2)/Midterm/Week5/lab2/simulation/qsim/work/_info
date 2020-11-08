@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week5\lab2\simulation\qsim
+vmux_4x1_beh
+Z1 I^f[GC[]A<b8<z?SWmPRCb0
+Z2 V5jEcZk]>PnK=]T<e>1oZ<1
+Z3 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week5\lab2\simulation\qsim
+Z4 w1604804716
+Z5 8mux_4x1_beh.vo
+Z6 Fmux_4x1_beh.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|mux_4x1_beh.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 6VHJ6k@:QfjllN9514h760
+!s85 0
+Z11 !s108 1604804716.973000
+Z12 !s107 mux_4x1_beh.vo|
+!s101 -O0
+vmux_4x1_beh_vlg_check_tst
+!i10b 1
+!s100 eFY5Dko^Ob=8daP6CYAVJ1
+IQee0Wg54HX7U3P0DQcId82
+Z13 VA>c>1L_Eh35D?9Pz@4J]43
+R3
+Z14 w1604804714
+Z15 8Waveform1.vwf.vt
+Z16 FWaveform1.vwf.vt
+L0 65
+R7
+r1
+!s85 0
+31
+Z17 !s108 1604804717.081000
+Z18 !s107 Waveform1.vwf.vt|
+Z19 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R9
+vmux_4x1_beh_vlg_sample_tst
+!i10b 1
+!s100 V[E7Jl>FlfjemT;:=;j=z2
+IYl7lYhB4iZ]?905A<LnN62
+VE2DFHM?nM^=ZjH7ZmKLAB0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+vmux_4x1_beh_vlg_vec_tst
+!i10b 1
+!s100 zU]ai]j1GG1_@Fdd_LBYD3
+IEiKQofKjP;1Q:`@DZDCeT0
+Z20 VJW=AXz5f]0RmoLfzPa?H33
+R3
+R14
+R15
+R16
+Z21 L0 160
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9

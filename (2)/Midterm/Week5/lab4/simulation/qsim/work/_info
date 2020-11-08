@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week5\lab4\simulation\qsim
+vfull_adder
+Z1 IKziiX^OhUgZiVQ@45Lan?2
+Z2 V]U6lL5=SdgnMQRFHM@OU00
+Z3 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week5\lab4\simulation\qsim
+Z4 w1604807176
+Z5 8full_adder.vo
+Z6 Ffull_adder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 LjVh`20ScKCV_QFEGKNYW1
+!s85 0
+Z10 !s108 1604807177.876000
+Z11 !s107 full_adder.vo|
+Z12 !s90 -work|work|full_adder.vo|
+!s101 -O0
+vfull_adder_vlg_check_tst
+!i10b 1
+!s100 n^<@mnBE6^@k=`LD0iS471
+IFlOaMRY7k][Y;lWCX@@V@2
+VWD]<KY`A0j3>RmBK2OmbA2
+R3
+Z13 w1604807175
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1604807177.982000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vfull_adder_vlg_sample_tst
+!i10b 1
+!s100 dDlgbhmamEoV]BgLo=0oO0
+IU1SQITTc[H9G^LjdKPE<D3
+VKV]Y9cNl6PI1n3f^ckfWR1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vfull_adder_vlg_vec_tst
+!i10b 1
+!s100 kSTa=L2MLh[9P9_[9]Rfn3
+IkIK5O>KkR8ilDk6oWP=4;2
+VYcA9o=ef0RHic;;ZJODc61
+R3
+R13
+R14
+R15
+L0 179
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

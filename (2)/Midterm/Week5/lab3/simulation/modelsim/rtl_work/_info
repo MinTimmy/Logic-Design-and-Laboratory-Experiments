@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week5\lab3\simulation\modelsim
+vmux_4x1_beh
+!i10b 1
+!s100 <QeiSS;dLK5A1JeiWU1L_2
+Ic21215BB7RG@Zz6HBEK[W3
+V5jEcZk]>PnK=]T<e>1oZ<1
+Z1 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week5\lab3\simulation\modelsim
+Z2 w1604806362
+Z3 8C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab3/mux_4x1_beh.v
+Z4 FC:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab3/mux_4x1_beh.v
+L0 38
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1604806396.183000
+Z7 !s107 C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab3/mux_4x1_beh.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab3|C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab3/mux_4x1_beh.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab3 -O0
+vt_mux_4x1_beh
+!i10b 1
+!s100 G@DlU<oNg>lz2=^BY7Z4O1
+I@dii[c8h<2g^mIQ997VbY0
+VWd7f0ohSF;XW?S7ZbojhP2
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10

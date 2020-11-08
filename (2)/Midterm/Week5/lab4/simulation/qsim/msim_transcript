@@ -1,0 +1,47 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do full_adder_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4 {C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module t_full_add
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	t_full_add
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4 {C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module t_full_add
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	t_full_add
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  t_full_add
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps t_full_add 
+# Loading work.t_full_add
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# time =                    0,ABC=000 F1=0 F2=0
+# time =                   10,ABC=001 F1=1 F2=0
+# time =                   20,ABC=010 F1=1 F2=0
+# time =                   30,ABC=011 F1=0 F2=1
+# time =                   40,ABC=100 F1=1 F2=0
+# time =                   50,ABC=101 F1=0 F2=1
+# time =                   60,ABC=110 F1=0 F2=1
+# time =                   70,ABC=111 F1=1 F2=1

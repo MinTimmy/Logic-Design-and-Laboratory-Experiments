@@ -10,7 +10,7 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df {D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df {C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module t_mux_4x1_df
 # -- Compiling module mux_4x1_df
@@ -18,7 +18,7 @@
 # Top level modules:
 # 	t_mux_4x1_df
 # 
-# vlog -vlog01compat -work work +incdir+D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df {D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df {C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module t_mux_4x1_df
 # -- Compiling module mux_4x1_df
@@ -45,10 +45,10 @@
 # time=                  50, select=10, in_0=0, in_1=0, in_2=1, in_3=0, m_out=1
 # time=                  60, select=11, in_0=0, in_1=0, in_2=1, in_3=0, m_out=0
 # time=                  70, select=11, in_0=0, in_1=0, in_2=0, in_3=1, m_out=1
-# ** Note: $finish    : D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v(10)
+# ** Note: $finish    : C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v(10)
 #    Time: 100 ps  Iteration: 0  Instance: /t_mux_4x1_df
 # 1
-# Break in Module t_mux_4x1_df at D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v line 10
+# Break in Module t_mux_4x1_df at C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v line 10
 # Simulation Breakpoint: 1
-# Break in Module t_mux_4x1_df at D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v line 10
+# Break in Module t_mux_4x1_df at C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v line 10
 # MACRO ./mux_4x1_df_run_msim_rtl_verilog.do PAUSED at line 17

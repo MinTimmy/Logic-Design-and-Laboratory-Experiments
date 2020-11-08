@@ -2,31 +2,31 @@ m255
 K3
 13
 cModel Technology
-Z0 dD:\Logic-Design-and-Laboratory-Experiments-master\(2)\Week5\mux_4x1_df\simulation\modelsim
+Z0 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Week5\mux_4x1_df\simulation\modelsim
 vmux_4x1_df
 !i10b 1
-!s100 <8JS8W1S@z@Yln_JP_;]E2
-IQ@jDT1H`k=VmUzenIiMK43
+!s100 J]I7;T]keD2MGgcz2]UTM0
+I6?g4=TO>TWW6fBA<j<9KM3
 VhAVSGzV=0::CTo:<Z0dA:3
-Z1 dD:\Logic-Design-and-Laboratory-Experiments-master\(2)\Week5\mux_4x1_df\simulation\modelsim
-Z2 w1602571180
-Z3 8D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v
-Z4 FD:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v
+Z1 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Week5\mux_4x1_df\simulation\modelsim
+Z2 w1604799551
+Z3 8C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v
+Z4 FC:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v
 L0 43
 Z5 OV;L;10.1d;51
 r1
 !s85 0
 31
-Z6 !s108 1602574835.788000
-Z7 !s107 D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v|
-Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df|D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df/mux_4x1_df.v|
+Z6 !s108 1604806222.067000
+Z7 !s107 C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df|C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df/mux_4x1_df.v|
 !s101 -O0
 Z9 o-vlog01compat -work work -O0
-Z10 !s92 -vlog01compat -work work +incdir+D:/Logic-Design-and-Laboratory-Experiments-master/(2)/Week5/mux_4x1_df -O0
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Week5/mux_4x1_df -O0
 vt_mux_4x1_df
 !i10b 1
-!s100 L@U9kR=J<2F[NGKT[m:m@3
-IO4lMk`G1N^akmV9l^R^4X0
+!s100 Ijhe85cPIG;K2hl4W@J;G2
+IAe?;H3nP40fm:4^ijLSmC2
 V?A3FPY;iZF^eQ@PPe;6P[2
 R1
 R2

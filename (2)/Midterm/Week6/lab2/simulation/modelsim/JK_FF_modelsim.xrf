@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week6/lab2/JK_FF.v
+source_file = 1, C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week6/lab2/db/JK_FF.cbx.xml
+design_name = JK_FF
+instance = comp, \Q~output , Q~output, JK_FF, 1
+instance = comp, \Q_b~output , Q_b~output, JK_FF, 1
+instance = comp, \clk~input , clk~input, JK_FF, 1
+instance = comp, \j~input , j~input, JK_FF, 1
+instance = comp, \k~input , k~input, JK_FF, 1
+instance = comp, \Mux0~0 , Mux0~0, JK_FF, 1
+instance = comp, \Q~reg0 , Q~reg0, JK_FF, 1

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week5\lab4\simulation\qsim
+vfull_adder
+!i10b 1
+!s100 n2Z@?W_z`X[jkT2YHPg^30
+I`3SJkIFDDTEeDC5L`zzTE3
+Z1 V]U6lL5=SdgnMQRFHM@OU00
+Z2 dC:\Users\Administrator\Desktop\Logic-Design-and-Laboratory-Experiments\(2)\Midterm\Week5\lab4\simulation\qsim
+Z3 w1604808305
+Z4 8C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4/full_adder.v
+Z5 FC:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4/full_adder.v
+L0 16
+Z6 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z7 !s108 1604808378.468000
+Z8 !s107 C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4/full_adder.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4|C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4/full_adder.v|
+!s101 -O0
+Z10 o-vlog01compat -work work -O0
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/Logic-Design-and-Laboratory-Experiments/(2)/Midterm/Week5/lab4 -O0
+vt_full_add
+!i10b 1
+!s100 lXzc]h;`;ETM5ogndBf7o2
+IZ]Ug5[n3Y]VT`Hi0cUL8z2
+V54F=Y4g_3:S;;n?FdOOk=0
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+R10
+R11
